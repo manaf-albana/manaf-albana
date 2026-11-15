@@ -2,10 +2,10 @@
 
 <div align="center">
 
-[![Title](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0EA5E9&center=true&vCenter=true&width=550&lines=AI+%26+Data+Engineering;Big+Data+Pipelines+%26+APIs;Full-Stack+Backend+Systems)](https://git.io/typing-svg)
+[![Title](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0EA5E9&center=true&vCenter=true&width=620&lines=AI+Systems+%26+Autonomous+Agents;Durable+Runtimes+%26+Browser+Automation;Arabic+Speech+AI+%26+Big+Data+Pipelines)](https://git.io/typing-svg)
 
-**مهندس برمجيات والذكاء الاصطناعي وتدفقات البيانات | AI & Data Systems Engineer**  
-*Building structured data pipelines, high-performance APIs, and retrieval-backed applications.*
+**مهندس أنظمة الذكاء الاصطناعي، الوكلاء الذاتيين، وتدفقات البيانات | AI Systems & Data Engineer**  
+*Building fault-tolerant AI agent runtimes, deterministic browser automation, Arabic speech intelligence, and scalable data pipelines.*
 
 <br/>
 
@@ -18,6 +18,27 @@
 ---
 
 ## 🌟 المشاريع المنشورة (Featured Projects)
+
+### 🛡️ [Rasekh-AI](https://github.com/manaf-albana/Rasekh-AI) — رَاسِخ الذكي
+**بيئة تشغيل فائقة الحصانة لوكلاء البرمجيات الذاتية طويلي المدى (Fault-Tolerant Agent Runtime)**
+- **التقنيات:** Python 3.11, FastAPI, Next.js 14 (RTL), Docker Sandbox, SQLite/PostgreSQL, SHA-256 Event Ledger
+- **المزايا:** استئناف المهام والتعافي التلقائي بعد الانهيار عبر نقاط فحص مشفرة بـ **SHA-256**، محرك سياسات وأذونات قبل تنفيذ الأوامر، بوابة موافقات بشرية (HITL)، عزل حاويات Docker، وتجارب RL/Evals واختبارات شاملة.
+
+---
+
+### 🤖 [Zimam-AI](https://github.com/manaf-albana/Zimam-AI) — زِمَام الذكي
+**منظومة أتمتة الأنظمة وتطبيقات الويب باستكشاف بصري لمرة واحدة وتنفيذ حتمي بصفر توكنز**
+- **التقنيات:** Python 3.12, Playwright Chromium, FastAPI, Next.js 14 (RTL), VLM Discovery, Deterministic YAML Compiler
+- **المزايا:** استكشاف الواجهة مرة واحدة وتحويل المسار إلى قدرة حتمية معتمدة على شجرة إمكانية الوصول (Accessibility Tree) لإعادة التنفيذ السريع بدون استدعاءات نماذج (`model_calls = 0`) مع دعم التسليم الفوري للمشغل البشري عند OTP/التحقق.
+
+---
+
+### 🎙️ [Diwan-AI](https://github.com/manaf-albana/Diwan-AI) — دِيوَان الذكي
+**منظومة مؤسسية لتفريغ وتحليل الاجتماعات العربية ومساعد المحاضر الدلالي**
+- **التقنيات:** Python, FastAPI, WhisperX, PyAnnote Diarization, Silero VAD, Qwen2.5 (Ollama), BGE-M3, FAISS, PostgreSQL/SQLAlchemy, Next.js 14 (RTL)
+- **المزايا:** تفريغ صوتي عربي مع فصل المتحدثين، تلخيص واستخراج القرارات والمحاور، فهرسة متجهات **FAISS** مع Reranking للدردشة الدلالية مع المحاضر، ومصادقة JWT وتحقق بالبريد.
+
+---
 
 ### 📊 [midterm-data-pipeline2](https://github.com/manaf-albana/midterm-data-pipeline2)
 **منظومة هجينة لمعالجة وتدفق البيانات الضخمة وفحص الجودة الآلي (Hybrid Big Data ELT & Serving API)**
@@ -33,11 +54,12 @@
 ┌──────────────────────────┬──────────────────────────────────────────────────────────┐
 │ المجال                   │ التقنيات والأدوات                                         │
 ├──────────────────────────┼──────────────────────────────────────────────────────────┤
-│ Data & Big Data          │ Apache Spark (PySpark), ETL/ELT Pipelines, MongoDB, ESR    │
-│ Backend Engineering      │ Python, FastAPI, Uvicorn, RESTful APIs, Pydantic, Alembic│
-│ AI & Retrieval Systems   │ RAG Pipelines, LangGraph, Qdrant, Embeddings, Gemini API   │
-│ Storage & Caching        │ MongoDB, PostgreSQL, Qdrant Vector DB                    │
-│ Frontend & UI/UX         │ Next.js, React, TypeScript, TailwindCSS                  │
+│ AI & Agent Systems       │ Durable Runtimes, Playwright Automation, WhisperX, RAG   │
+│ Retrieval & Models       │ FAISS, BGE-M3 Embeddings, Qwen2.5, Ollama, Gemini API    │
+│ Data & Big Data          │ Apache Spark (PySpark), ETL/ELT Pipelines, MongoDB, ESR  │
+│ Backend Engineering      │ Python, FastAPI, Uvicorn, Pydantic, SQLAlchemy, Alembic  │
+│ Storage & Caching        │ MongoDB, PostgreSQL, SQLite (WAL), FAISS Vector Index    │
+│ Frontend & UI/UX         │ Next.js 14, React, TypeScript, TailwindCSS, RTL          │
 │ Environment & Tooling    │ Docker, Docker Compose, Git, PyTest                      │
 └──────────────────────────┴──────────────────────────────────────────────────────────┘
 ```
